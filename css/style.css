@@ -112,9 +112,22 @@ figure {
 .container {
     max-width: 980px;
 }
+.contenido{
+ margin: 15px 200px;
 
+ width: 10px 10px;
+ padding: 30px;
+}
+
+
+.contenido>#ruleta_helados{
+    margin: 15px 200px;
+    border: 3px solid rgb(11, 11, 11);
+    width: 10px 10px;
+    padding: 40px;
+}
 header {
-    background: url(../images/header_bg.jpg);
+    background:whitesmoke;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,7 +137,7 @@ header .layer {
     position: relative;
     top: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(234, 12, 12, 0.466);
 }
 
 header .sidenav ul li {
@@ -147,7 +160,7 @@ header .sidenav ul li a {
 }
 
 header .sidenav ul li a:hover {
-    color: #f6da17 !important;
+    color: #eb1616 !important;
     text-decoration: underline;
 }
 
@@ -165,7 +178,7 @@ header .sidenav ul li:last-child a {
 }
 
 .active {
-    color: #f6da17 !important;
+    color: #ffffff !important;
 }
 
 nav button {
