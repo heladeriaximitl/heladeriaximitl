@@ -18,9 +18,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -33,49 +38,52 @@
                     <a class="navbar-brand" href="index.html">
                         <img src="images/logotipo ximitl original.png" alt="logo" width="25%">
                     </a>
-                    <div id="navbarSupportedContent" class="collapse navbar-collapse sidenav">
-                        <a href="javascript:void(0)" class="closebtn d-lg-none" id="cls-btn">&times;</a>
-                        <ul class="navbar-nav ml-lg-auto">
-                            <li>
-                                <a href="index.html" class="active">Home</a>
-                            </li>
-                            <li>
-                                <a href="recipies.html">Helados</a>
-                            </li>
-                            <li>
-                                <a href="about.html">Historia</a>
-                            </li>
-                            <li>
-                                <a href="featured.html">localizaciones</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contactenos</a>
-                            </li>
-                        </ul>
-
+                    <div class="menu-container"> 
+    <div class="menu">
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-label">
+        <span class="menu-text">Menú</span>
+        <span class="menu-icon"></span>
+      </label>
+      <ul class="menu-items">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
                     </div>
-
-                </nav>
-            </div>
-        </div>
     </header>
     <div class="contenido">
-       <div id="ruleta_helados">
+      
+        <p id="carrusel2">
+            <div class="content-all">
+                <div class="content-carrusel">
+                    <figure><img class="imgCarrusel" src="images/chileeeee.jpg"></figure>
+                    <figure><img class="imgCarrusel" src="images/chipotle.jpg"></figure>
+                    <figure><img class="imgCarrusel" src="images/sorbete.jpg"></figure>
+                </div>
+        </p>
        </div>
+    
     </div>
 
     <div class="contenido"  >
         <h1>¿Sabias que?</h1>
 
-        <div style=" padding: 3%;">
+        <div style=" padding: 3%; height: 600px;">
+            <div class="Div_dc">
             <section class="section_dc">
                 <p>Los chinos, hace más de dos milenios, tuvieron la idea de mezclar nieve con un preparado a base de frutas y miel y los
                     romanos perfeccionaron la técnica. La idea de las paletas vino mucho después</p>
             </section>
+            
             <section class="section_img_dc">
                 <img src="images/1.jpg">
             </section>
-
+            
+        </div>
+        <div class="Div_dc">
             <section class="section_dc">
                 <p>La sensación de cerebro congelado sucede cuando
                      el helado toca la parte superior de la boca. Esto hace que los vasos sanguíneos de la cabeza se dilaten, dando esa sensación 
@@ -84,6 +92,7 @@
             <section class="section_img_dc">
                 <img src="images/2.jpeg" >
             </section>
+        </div>
           </div>
            <div class="contenido">
             <h1>Sabores unicos y deliciosos</h1>
@@ -94,9 +103,7 @@
         </div>
     
     </div>
-
     </div>
-   
 </body>
 
 </html>
