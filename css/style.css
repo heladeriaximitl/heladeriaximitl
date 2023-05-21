@@ -139,13 +139,11 @@ figure {
         height: 45%;
         max-height: 45%;
         margin-top: 6%;
-        
-
     }
     
     .section_dc>p{
         color: black; 
-        font-size: 70%; 
+        font-size: 80%; 
         font-family: 'Josefin Sans', sans-serif;
     }
     
@@ -154,7 +152,7 @@ figure {
         margin: 3% auto;
         border: 8px groove rgb(225, 94, 94);
         width: 65%;
-        height:17%;
+        height:30%;
         border-radius: 5%;
         left: 16%;
     
@@ -177,7 +175,7 @@ figure {
         margin: 5% 5%;
         width: 90%;
         padding: 2% 5%;
-        margin: 5px auto;
+        margin: 5% auto;
         align-items: center;
 
        }
