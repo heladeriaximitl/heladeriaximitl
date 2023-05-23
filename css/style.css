@@ -11,112 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-button {
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-}
 
-ul,
-li {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-
-li {
-    display: inline-block;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    font-size: 28px;
-    padding: 0;
-}
-
-textarea {
-    outline: 0;
-    resize: none;
-    padding: 15px 0 0 15px;
-    font-style: italic;
-}
-
-input {
-    outline: 0;
-    padding: 12px 0 0 13px;
-    font-style: italic;
-}
-
-button {
-    outline: 0;
-}
-
-button:active {
-    outline: 0;
-}
-
-button:focus {
-    outline: 0;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    color: #ccc;
-}
-
-a {
-    cursor: pointer;
-    color: #fff;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.container {
-    max-width: 980px;
-    padding: 0;
-}
-
-.container-fluid {
-    padding: 0;
-}
-
-figure {
-    margin: 0;
-}
-
-.container {
-    max-width: 1100px;
-}
-
-/*--------Header--------*/
-
-.top,
-.bottom {
-    line-height: 0px;
-}
-
-.top img,
-.bottom img {
-    width: 100%;
-}
-
-.container {
-    max-width: 980px;
-}
-.contenido{
- margin: 5% 10%;
- width: 80%;
- padding: 3% 4%;
-}
 
 #contenedor_principal{
     width: 100%;
@@ -137,13 +32,13 @@ figure {
     .Div_dc{
 
         height: 45%;
-        max-height: 45%;
-        margin-top: 6%;
+        max-height:495px;;
+        margin-top: 4%;
     }
     
     .section_dc>p{
         color: black; 
-        font-size: 80%; 
+        font-size: 90%; 
         font-family: 'Josefin Sans', sans-serif;
     }
     
@@ -152,7 +47,8 @@ figure {
         margin: 3% auto;
         border: 8px groove rgb(225, 94, 94);
         width: 65%;
-        height:30%;
+        height:25%;
+        max-height: 236.5px;
         border-radius: 5%;
         left: 16%;
     
@@ -174,7 +70,8 @@ figure {
     .contenido{
         margin: 5% 5%;
         width: 90%;
-        padding: 2% 5%;
+
+        padding: 1% 5%;
         margin: 5% auto;
         align-items: center;
 
@@ -185,6 +82,7 @@ figure {
         height: 30%;
         position:absolute;
         left: 15%;
+
 
        }
 
@@ -235,10 +133,6 @@ figure {
         margin: 10% 19%;
     }
 
-    .contenido>iframe{
-        width: 400px;
-        height: 330px;
-       }
 }
 
 
