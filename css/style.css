@@ -33,7 +33,7 @@ body {
 
         height: 45%;
         max-height:495px;;
-        margin-top: 4%;
+        margin-top: 8%;
     }
     
     .section_dc>p{
@@ -47,7 +47,7 @@ body {
         margin: 3% auto;
         border: 8px groove rgb(225, 94, 94);
         width: 65%;
-        height:25%;
+        height:20%;
         max-height: 236.5px;
         border-radius: 5%;
         left: 16%;
@@ -59,7 +59,7 @@ body {
         text-align:center; 
         font-family: 'Caveat', cursive; 
         font-size: 65px; 
-        margin: 20px 15px;
+        margin: 5% 4%;
     
     }
     
@@ -70,7 +70,6 @@ body {
     .contenido{
         margin: 5% 5%;
         width: 90%;
-
         padding: 1% 5%;
         margin: 5% auto;
         align-items: center;
@@ -117,7 +116,7 @@ body {
         margin: 1%;
         border: 8px groove rgb(225, 94, 94);
         width: 23%;
-        height:60%;
+        height:50%;
     }
     
     .contenido>h1{
