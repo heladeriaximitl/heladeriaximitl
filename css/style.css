@@ -14,7 +14,7 @@ body{
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     box-sizing: border-box;
-    background-color:#F24405;
+    background-color:#F26022;
 }
 #todo_contenido{
     margin: 0;
@@ -44,8 +44,8 @@ body{
 
 
 .div-imgs{
-   height: 70%;
-   width: 40%;
+   height: auto;
+   width: 80%;
    display: inline-block;
 
 }
@@ -58,20 +58,28 @@ body{
 
 .contenedor-1{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            200px,
+            1fr
+        )
+    );
+    gap: 15px;
     margin-top: 10px;
-    height: 25%;
+    height: auto;
 }
 
 .contenedor-texto{
     display: inline-block;
-    width: 40%;
+    width: 100%;
     padding: 2%;
-    height: 65%;
-    border: 3px solid red;
+    height: auto;
+    border: 3px solid #642022;
+    border-radius: 60px;
     border-radius: 4px;
+    background: #F2A950;
 
 }
 
@@ -81,7 +89,7 @@ body{
 }
 
 .video{
-    height: 18%;
+    height: auto;
     margin-top: 3%;
     display: flex;
     flex-direction: row;
@@ -225,12 +233,13 @@ opacity: 0.3;
 }
 
 #div-datosC{
-    width: 67%;
-    height: 1500px;
+    width: 100%;
+    height: auto;
     padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 15px;
     
 }
 
@@ -247,11 +256,12 @@ opacity: 0.3;
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #df99a4;
+        background-color: #000000;
         display: none;
     }
     .header .navigation ul li{
-        width: 100%;
+        width: 97%;
+        animation: movimiento 1s 1;
     }
     .header .navigation ul li a{
         padding: 8px 30px 8px 10%;
@@ -276,18 +286,26 @@ opacity: 0.3;
     #toggle:checked ~ .navigation{
         display: block;
     }
+
+    .navigation{
+        width: 100%;
+
+    }
 }
 
 
 /*------------Body para celulares-----------*/
-@media screen  and (max-width: 800px){
-    .contenedor-principal {
-        height: 170%;
-        width: 80%;
-        max-width: 1000px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
+@media screen  and (max-width: 450px){
+.div-imgs{
+    width: 100%;
+
+}
+
+.Div-carrusel{
+    margin-top: 140px;
+    width: 100%;
+    margin-bottom: 50px;
+}
 
 
    
@@ -316,6 +334,7 @@ footer {
     font-size: 14px;
     width: 100%;
     height: 120px  ;
+    width: 100%;
   }
 footer p{
     font-size: 140%;
