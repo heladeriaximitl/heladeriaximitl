@@ -290,26 +290,12 @@ opacity: 0.3;
 
     }
 
-    #slider{
-        box-shadow: 5px 5px 10px 2px,-7px -6px 10px 2px;
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        overflow: hidden;
-    }
-    
-    .slider-wrapper{
-    
-     height:auto;
-     padding: 10px;
-     width: 100%;
-    }
+ 
 }
 
 
 /*------------Body para celulares-----------*/
-@media screen  and (min-width: 300px){
+@media screen  and (max-width: 1000px){
 .div-imgs{
     width: 100%;
 
@@ -321,10 +307,13 @@ opacity: 0.3;
     margin-bottom: 50px;
 }
 
-
-
-   
+body{
+    background-color: pink;
 }
+
+}
+
+
 
 
 
@@ -376,22 +365,46 @@ button{
 }
 
 
+    
  .slider-wrapper{
 
     height:400px;
     padding: 10px;
     width: 100%;
+    
 }
+@media screen and (max-width:1000px){
+    .slider-wrapper{
+        height: 245px;
+    }
+
+
+}
+
 
 #slider{
 box-shadow: 5px 5px 10px 2px,-7px -6px 10px 2px;
 margin: 0 auto;
-width: 65%;
-height: 95%;
+width: 60%;
+height: 100%;
 border-radius: 10px;
 overflow: hidden;
+max-width: 100%;
+}
+@media screen and (max-width:1000px){
+    
+    #slider{
+        box-shadow: 5px 5px 10px 2px,-7px -6px 10px 2px;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 100%;
+        }
 
 }
+
 
 #slider ul{
 display: flex;
